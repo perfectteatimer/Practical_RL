@@ -2,8 +2,9 @@
 # all credit goes to https://github.com/abhishekunique
 # (if I got the author right)
 import numpy as np
-import gym
-from gym.utils import seeding
+import gymnasium as gym
+from gymnasium.utils import seeding
+
 
 try:
     from graphviz import Digraph
